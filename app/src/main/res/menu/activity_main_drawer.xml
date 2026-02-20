@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home1"
+            android:icon="@drawable/ic_menu_camera"
+            android:title="@string/menu_about_us" />
+        <item
+            android:id="@+id/nav_home2"
+            android:icon="@drawable/ic_menu_camera"
+            android:title="@string/menu_privacy" />
+        <item
+            android:id="@+id/nav_home3"
+            android:icon="@drawable/ic_menu_camera"
+            android:title="@string/menu_terms" />
+        <item
+            android:title="---------------------" />
+
+
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_menu_camera"
+            android:title="@string/menu_home" />
+        <item
+            android:id="@+id/nav_gallery"
+            android:icon="@android:drawable/stat_sys_headset"
+            android:title="@string/menu_talk_to_AI" />
+        <item
+            android:id="@+id/nav_slideshow"
+            android:icon="@android:drawable/ic_dialog_dialer"
+            android:title="@string/menu_budget_calculator" />
+
+        <item
+            android:id="@+id/nav_slideshow1"
+            android:icon="@android:drawable/stat_notify_chat"
+            android:title="@string/menu_chat" />
+    </group>
+</menu>
