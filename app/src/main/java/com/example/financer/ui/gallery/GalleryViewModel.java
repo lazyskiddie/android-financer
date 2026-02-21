@@ -1,5 +1,7 @@
 package com.example.financer.ui.gallery;
 
+import android.widget.VideoView;
+
 import androidx.lifecycle.LiveData;
 import androidx.lifecycle.MutableLiveData;
 import androidx.lifecycle.ViewModel;
@@ -16,4 +18,6 @@ public class GalleryViewModel extends ViewModel {
     public LiveData<String> getText() {
         return mText;
     }
+
+
 }
